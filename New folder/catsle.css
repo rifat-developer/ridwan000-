@@ -1,0 +1,96 @@
+body{
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family:tahoma;
+    overflow-x: hidden;
+}
+
+a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+
+    text-decoration: underline;
+
+}    
+
+
+h1{
+    font-family: papurus;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 80px;
+}
+
+#scene{
+    background: url(./img/chose_castle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 711px;
+    height: 400px;
+    top: 20px;
+    left: 20px;
+}
+
+#situation{
+    position: absolute;
+    top: 310px;
+    background-color: rgba(0,0,0,.5);
+    width: 650px;
+    text-align: center;
+    left: 20px;
+    padding: 15px;
+}
+
+.mountain{
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.mountain:hover{
+    background-color: rgba(256,256,256,.5);
+}
+
+.catsle{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+.catsle:hover{
+    background-color: rgba(256,256,256,.5);
+}
+
+.fight-me{
+    position: relative;
+    left: 60px;
+    top: 50px;
+    opacity: 0;
+}
+
+.fight-me:hover{
+    opacity: 1;
+}
+
+.run-for{
+    position: relative;
+    top: 50px;
+    opacity: 0;
+}
+
+.run-for:hover{
+    opacity: 1;
+}
